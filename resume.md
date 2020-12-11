@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
- 2nd-year electrical engineering student with a focus in PCB design, analog circuit design and analysis, and embedded systems. 
+ 3rd-year electrical engineering undergraduate with a focus in embedded systems and mixed-signal PCB design. 
 
 ## Experience
 
@@ -18,18 +18,24 @@ is intended to be used for a short summary. -->
 hand -->
 ### <span>PCB CAD Engineer, Ravata Solutions</span> <span>Feb 2020 - Present</span>
 
-- Extensive analog circuit analysis of a bioimpedance sensing board featuring constant current feedback (galvanostat) and highly sensitive measurement requirements. Successfully identified and addressed multiple areas for optimization, improvement, and correction.
-  - Lowered board cost by advising removal of extraneous amplifiers, replacing a needlessly versatile demodulator with an equally precise combination of an analog multiplier and set of op-amps, and replacing instances of precision single op-amps with a comparable dual channel variant
-  - Identified issue in galvanostat feedback functionality due to an overlooked phase shift of a 4-electrode sensor's excitation signal
-  - Wrote firmware for the board using the STM32CubeIDE for an STM32F4 chip. Employed debugging, ADC data collection, and hardware SPI interfacing Also wrote an accompanying python script to offload captured data via serial into a CSV file for postprocessing 
+- Extensive analog circuit analysis of a bioimpedance sensing board with highly sensitive measurement requirements. Successfully identified and addressed multiple areas for optimization, improvement, and correction and lowered board cost by roughly 30%
+- Wrote device firmware for an STM32F4 MCU and an accompanying stepper motor-based pump module. Employed debugging, ADC data collection, and hardware SPI/I2C/UART interfacing. Also wrote an accompanying python script to offload captured data via serial into a CSV file for postprocessing 
+- High-volume design and optimization of many PCBs, including high-frequency (>1MHz) bioimpedance sensing motherboards and power management modules
 
 ### <span>Electrical Team Lead, Space and Satellite Systems</span> <span>May 2020 -- Present</span>
+- Leading team in designing CubeSat electrical system from the ground up (see my own technical contributions in the "Projects" section below)
+
+
+### <span>Physics Tutor, UC Davis AATC</span> <span>Feb 2020 -- Present</span>
+- Peer tutor for students taking lower division physics courses at UC Davis. Includes individual and group tutoring
+- Topics range from classical mechanics to special relativity and quantum physics. Mathematics as advanced as multivariable calculus and complex differential equations are used
 
 ## Projects
 
-### <span>Miss Direction</span> <span>Aug 2016</span>
-
-
+### <span>CubeSat Electrical Bus</span> <span>Jan 2019-Present</span>
+- Involved in technical work and leadership pertaining to the design of a 2U CubeSat out of UC Davis, with the core mission objective of being the first CubeSat team to demonstrate the repurposing of common hard disk drives as reacton wheels
+ - Designed, laid out, and assembled PCBs for microsatellite actuators (reaction wheel motor driver, constant-current magnetorquer coil driver)
+ - Assisted in the design of and performed the layout of the flight computer, based on a Raspberry Pi Compute Module and featuring a GPS, RTC, watchdog timer, and various sensors. Coordinated with software team on establishing communication bus setup 
 ## Education
 
 ### <span>University of California, Davis, BS Electrical Engineering</span> <span>2018 -- 2022</span>
@@ -38,3 +44,6 @@ hand -->
   - Lead of satellite club electrical team
 
 ## Skills
+- Embedded systems: STM32/Atmega MCUs, I2C, SPI, UART, ADCs, DMA, STM32CubeIDE (HAL Libraries) and VSCode (PlatformIO)
+- PCB Design/Layout: Autodesk EAGLE/Fusion 360, KiCAD, Altium, mixed-signal design, impedance matching 
+- Programming: Python, C/C++(embedded), UNIX systems (daily Linux user)

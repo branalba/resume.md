@@ -13,7 +13,7 @@ resume.html: preamble.html resume.md postamble.html
 	cat postamble.html >> $@
 
 resume.pdf: resume.html resume.css
-	weasyprint resume.html resume.pdf
+	weasyprint resume.html ~/Nextcloud/professional_files/resume.md/resume.pdf
 
 clean:
 	rm -f resume.html resume.pdf
