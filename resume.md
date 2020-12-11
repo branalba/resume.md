@@ -10,7 +10,7 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
- 3rd-year electrical engineering undergraduate with a focus in embedded systems and mixed-signal PCB design. 
+ 3rd-year electrical engineering undergraduate with a focus in embedded systems and mixed-signal PCB design. Looking for opportunities to work at any level in an embedded system design chain .
 
 ## Experience
 
@@ -20,7 +20,7 @@ hand -->
 
 - Extensive analog circuit analysis of a bioimpedance sensing board with highly sensitive measurement requirements. Successfully identified and addressed multiple areas for optimization, improvement, and correction and lowered board cost by roughly 30%
 - Wrote device firmware for an STM32F4 MCU and an accompanying stepper motor-based pump module. Employed debugging, ADC data collection, and hardware SPI/I2C/UART interfacing. Also wrote an accompanying python script to offload captured data via serial into a CSV file for postprocessing 
-- High-volume design and optimization of many PCBs, including high-frequency (>1MHz) bioimpedance sensing motherboards and power management modules
+- High-volume design and optimization of many PCBs, including high-frequency (>1MHz) bioimpedance sensing motherboards, power management modules, and impedance sensor calibration chips
 
 ### <span>Electrical Team Lead, Space and Satellite Systems</span> <span>May 2020 -- Present</span>
 - Leading team in designing CubeSat electrical system from the ground up (see my own technical contributions in the "Projects" section below)
@@ -42,6 +42,7 @@ hand -->
 
   - GPA 3.5
   - Lead of satellite club electrical team
+  - Courses: EEC 18 (FPGAs), EEC 10 (Digital and Analog Embedded Systems)
 
 ## Skills
 - Embedded systems: STM32/Atmega MCUs, I2C, SPI, UART, ADCs, DMA, STM32CubeIDE (HAL Libraries) and VSCode (PlatformIO)
