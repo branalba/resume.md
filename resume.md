@@ -10,41 +10,60 @@ line. It is intended to be used for contact details -->
 
 <!-- The paragraph after the h1 and ul and before the first h2 is optional. It
 is intended to be used for a short summary. -->
- 3rd-year electrical engineering undergraduate with a focus in embedded systems and mixed-signal PCB design. Looking for opportunities to work at any level in an embedded system design chain .
+Electrical engineering undergraduate with experience developing low-cost, 
+mixed-signal embedded devices including circuit design, PCB layout, and firmware/software.
+Currently seeking positions anywhere in the embedded design toolchain, where I can help 
+develop reliable embedded solutions as quickly and cost-effectively as possible.
 
 ## Experience
 
 <!-- You have to wrap the "left" and "right" half of these headings in spans by
 hand -->
-### <span>PCB CAD Engineer, Ravata Solutions</span> <span>Feb 2020 - Present</span>
+### <span>Embedded System Engineer, Ravata Solutions</span> <span>Feb 2020 - Present</span>
 
-- Extensive analog circuit analysis of a bioimpedance sensing board with highly sensitive measurement requirements. Successfully identified and addressed multiple areas for optimization, improvement, and correction and lowered board cost by roughly 30%
-- Wrote device firmware for an STM32F4 MCU and an accompanying stepper motor-based pump module. Employed debugging, ADC data collection, and hardware SPI/I2C/UART interfacing. Also wrote an accompanying python script to offload captured data via serial into a CSV file for postprocessing 
-- High-volume design and optimization of many PCBs, including high-frequency (>1MHz) bioimpedance sensing motherboards, power management modules, and impedance sensor calibration chips
-
-### <span>Electrical Team Lead, Space and Satellite Systems</span> <span>May 2020 -- Present</span>
-- Leading team in designing CubeSat electrical system from the ground up (see my own technical contributions in the "Projects" section below)
-
+- Reduced product cost by roughly 50% by optimizing hardware selection for impedance
+sensing circuit, as well as eliminating several expensive components by 
+implementing digital signal processing of input and output sinusoids 
+- Improved device prototype turnover and performance by switching to 4-layer 
+circuit boards for critical modules and otherwise optimizing the PCB design 
+toolchain
+- Designed PCBs and wrote embedded firmware in C for real-time simultaneous ADC data processing, a stepper motor driver, and libraries for a variety of hardware peripherals
+- Improved versatility and cost-effectiveness of system by designing host 
+software for embedded medical device in Python, with full functionality 
+including filesystem management and data transfer demonstrated on common 
+PCs as well as Raspberry Pi
 
 ### <span>Physics Tutor, UC Davis AATC</span> <span>Feb 2020 -- Present</span>
-- Peer tutor for students taking lower division physics courses at UC Davis. Includes individual and group tutoring
-- Topics range from classical mechanics to special relativity and quantum physics. Mathematics as advanced as multivariable calculus and complex differential equations are used
+
+- Peer tutor for students taking lower division physics courses at UC Davis
+- Topics range from classical mechanics to special relativity and quantum 
+physics, and includes electromagnetics
 
 ## Projects
 
 ### <span>CubeSat Electrical Bus</span> <span>Jan 2019-Present</span>
-- Involved in technical work and leadership pertaining to the design of a 2U CubeSat out of UC Davis, with the core mission objective of being the first CubeSat team to demonstrate the repurposing of common hard disk drives as reacton wheels
- - Designed, laid out, and assembled PCBs for microsatellite actuators (reaction wheel motor driver, constant-current magnetorquer coil driver)
- - Assisted in the design of and performed the layout of the flight computer, based on a Raspberry Pi Compute Module and featuring a GPS, RTC, watchdog timer, and various sensors. Coordinated with software team on establishing communication bus setup 
+
+- Leading the electrical team in the design of UC Davis's first undergraduate
+Cubesat mission
+- Presented "Environmental and Performance Testing of Hard Disk Drives as 
+Low-Cost Cubesat Reaction Wheels" at the UC Davis Undergraduate Research Conference 
+in 2020
+- Obtained amateur radio Technician license for validating AMSAT satellite transceiver
+- Designed low-cost flight computer PCB based on Raspberry Pi Compute Module 3, 
+featuring real-time-clock, hardware watchdog, and GPS.
 ## Education
 
-### <span>University of California, Davis, BS Electrical Engineering</span> <span>2018 -- 2022</span>
+### <span>University of California, Davis, B.S. Electrical Engineering</span> <span>2018 -- 2022</span>
 
-  - GPA 3.5
+  - 3.5 GPA
   - Lead of satellite club electrical team
-  - Courses: EEC 18 (FPGAs), EEC 10 (Digital and Analog Embedded Systems)
+  - Courses: EEC 180 (Digital Design in Verilog), EEC 170 (Comp. Architecture)
 
 ## Skills
-- Embedded systems: STM32/Atmega MCUs, I2C, SPI, UART, ADCs, DMA, STM32CubeIDE (HAL Libraries) and VSCode (PlatformIO)
-- PCB Design/Layout: Autodesk EAGLE/Fusion 360, KiCAD, Altium, mixed-signal design, impedance matching 
-- Programming: Python, C/C++(embedded), UNIX systems (daily Linux user)
+
+- **Analog circuit design/verification**: Amplifiers, filters, circuit simulation in LTSpice or OrCAD Capture CIS
+- **Embedded firmware**: UART, SPI, I2C, DMA, ADCs. Packet encoding/ring buffers for high speed, reliable data transmission
+- **Microcontroller toolchains**: STM32 (STM32Cube ecosystem), MSP432 (Code Composer Studio), PlatformIO IDE (Arduino and STM32), "Bare metal" (makefile + ARM GCC toolchain) 
+- **PCB Design**: Autodesk EAGLE, KiCAD, Altium Designer; impedance matching, 4-layer boards
+- **Programming languages**: Python, MATLAB/Octave, embedded C/C++, bash
+- **Digital logic design**: Verilog in Quartus Prime/Altera Modelsim
